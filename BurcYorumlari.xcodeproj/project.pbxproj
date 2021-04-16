@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F250AA52621D58100E56130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AA42621D58100E56130 /* AppDelegate.swift */; };
+		5F250AA72621D58100E56130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AA62621D58100E56130 /* SceneDelegate.swift */; };
+		5F250AAC2621D58100E56130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F250AAA2621D58100E56130 /* Main.storyboard */; };
+		5F250AAE2621D58100E56130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F250AAD2621D58100E56130 /* Assets.xcassets */; };
+		5F250AB12621D58100E56130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F250AAF2621D58100E56130 /* LaunchScreen.storyboard */; };
+		5F250AC12621D77600E56130 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC02621D77600E56130 /* Extensions.swift */; };
+		5F250AC42621D7FE00E56130 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC32621D7FE00E56130 /* MainTabBarController.swift */; };
+		5F250AC72621D81A00E56130 /* BurclarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC62621D81A00E56130 /* BurclarController.swift */; };
+		5F250ACA2621D9F000E56130 /* EtiketlerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC92621D9F000E56130 /* EtiketlerController.swift */; };
+		5F250ACD2621DB6400E56130 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250ACC2621DB6400E56130 /* Utilities.swift */; };
+		5F250AD02621E3C200E56130 /* BurcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250ACF2621E3C200E56130 /* BurcCell.swift */; };
+		5F2C024A2629CFA4009C1A33 /* EtiketlerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */; };
+		5F2C024F262A1457009C1A33 /* BilinmeyenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */; };
+		5F33A6102622EA9C0022AE6F /* Burc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33A60F2622EA9C0022AE6F /* Burc.swift */; };
+		5F8BAE602625E98600C5A3DC /* BurcDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */; };
+		5FD346C826273C18005BD222 /* beyond_the_mountains.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD346C726273C18005BD222 /* beyond_the_mountains.otf */; };
+		5FD346CB26273FF4005BD222 /* PureHeart-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD346CA26273FF4005BD222 /* PureHeart-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F250AA12621D58100E56130 /* BurcYorumlari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurcYorumlari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F250AA42621D58100E56130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F250AA62621D58100E56130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F250AAB2621D58100E56130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F250AAD2621D58100E56130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F250AB02621D58100E56130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F250AB22621D58100E56130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F250AC02621D77600E56130 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5F250AC32621D7FE00E56130 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		5F250AC62621D81A00E56130 /* BurclarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurclarController.swift; sourceTree = "<group>"; };
+		5F250AC92621D9F000E56130 /* EtiketlerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketlerController.swift; sourceTree = "<group>"; };
+		5F250ACC2621DB6400E56130 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5F250ACF2621E3C200E56130 /* BurcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcCell.swift; sourceTree = "<group>"; };
+		5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketlerCell.swift; sourceTree = "<group>"; };
+		5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilinmeyenController.swift; sourceTree = "<group>"; };
+		5F33A60F2622EA9C0022AE6F /* Burc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burc.swift; sourceTree = "<group>"; };
+		5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcDetailController.swift; sourceTree = "<group>"; };
+		5FD346C726273C18005BD222 /* beyond_the_mountains.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beyond_the_mountains.otf; sourceTree = "<group>"; };
+		5FD346CA26273FF4005BD222 /* PureHeart-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PureHeart-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F250A9E2621D58100E56130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F250A982621D58100E56130 = {
+			isa = PBXGroup;
+			children = (
+				5F250AA32621D58100E56130 /* BurcYorumlari */,
+				5F250AA22621D58100E56130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F250AA22621D58100E56130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F250AA12621D58100E56130 /* BurcYorumlari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F250AA32621D58100E56130 /* BurcYorumlari */ = {
+			isa = PBXGroup;
+			children = (
+				5FD346C3262739E1005BD222 /* Fonts */,
+				5F250ABF2621D73300E56130 /* Model */,
+				5F250ABE2621D72700E56130 /* View */,
+				5F250ABD2621D71F00E56130 /* ViewModel */,
+				5F250ABC2621D71100E56130 /* Controller */,
+				5F250ABB2621D70800E56130 /* API */,
+				5F250ABA2621D6FC00E56130 /* Utils */,
+				5F250AA42621D58100E56130 /* AppDelegate.swift */,
+				5F250AA62621D58100E56130 /* SceneDelegate.swift */,
+				5F250AAA2621D58100E56130 /* Main.storyboard */,
+				5F250AAD2621D58100E56130 /* Assets.xcassets */,
+				5F250AAF2621D58100E56130 /* LaunchScreen.storyboard */,
+				5F250AB22621D58100E56130 /* Info.plist */,
+			);
+			path = BurcYorumlari;
+			sourceTree = "<group>";
+		};
+		5F250ABA2621D6FC00E56130 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F250AC02621D77600E56130 /* Extensions.swift */,
+				5F250ACC2621DB6400E56130 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F250ABB2621D70800E56130 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5F250ABC2621D71100E56130 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F250AC32621D7FE00E56130 /* MainTabBarController.swift */,
+				5F250AC62621D81A00E56130 /* BurclarController.swift */,
+				5F250AC92621D9F000E56130 /* EtiketlerController.swift */,
+				5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */,
+				5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F250ABD2621D71F00E56130 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F250ABE2621D72700E56130 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F250ACF2621E3C200E56130 /* BurcCell.swift */,
+				5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F250ABF2621D73300E56130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F33A60F2622EA9C0022AE6F /* Burc.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FD346C3262739E1005BD222 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5FD346CA26273FF4005BD222 /* PureHeart-Regular.ttf */,
+				5FD346C726273C18005BD222 /* beyond_the_mountains.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F250AA02621D58100E56130 /* BurcYorumlari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F250AB52621D58100E56130 /* Build configuration list for PBXNativeTarget "BurcYorumlari" */;
+			buildPhases = (
+				5F250A9D2621D58100E56130 /* Sources */,
+				5F250A9E2621D58100E56130 /* Frameworks */,
+				5F250A9F2621D58100E56130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurcYorumlari;
+			productName = BurcYorumlari;
+			productReference = 5F250AA12621D58100E56130 /* BurcYorumlari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F250A992621D58100E56130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5F250AA02621D58100E56130 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5F250A9C2621D58100E56130 /* Build configuration list for PBXProject "BurcYorumlari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F250A982621D58100E56130;
+			productRefGroup = 5F250AA22621D58100E56130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F250AA02621D58100E56130 /* BurcYorumlari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F250A9F2621D58100E56130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F250AB12621D58100E56130 /* LaunchScreen.storyboard in Resources */,
+				5FD346C826273C18005BD222 /* beyond_the_mountains.otf in Resources */,
+				5FD346CB26273FF4005BD222 /* PureHeart-Regular.ttf in Resources */,
+				5F250AAE2621D58100E56130 /* Assets.xcassets in Resources */,
+				5F250AAC2621D58100E56130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F250A9D2621D58100E56130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F250AA52621D58100E56130 /* AppDelegate.swift in Sources */,
+				5F250AC12621D77600E56130 /* Extensions.swift in Sources */,
+				5F250ACD2621DB6400E56130 /* Utilities.swift in Sources */,
+				5F33A6102622EA9C0022AE6F /* Burc.swift in Sources */,
+				5F250AC42621D7FE00E56130 /* MainTabBarController.swift in Sources */,
+				5F250AC72621D81A00E56130 /* BurclarController.swift in Sources */,
+				5F250AA72621D58100E56130 /* SceneDelegate.swift in Sources */,
+				5F250ACA2621D9F000E56130 /* EtiketlerController.swift in Sources */,
+				5F8BAE602625E98600C5A3DC /* BurcDetailController.swift in Sources */,
+				5F2C024F262A1457009C1A33 /* BilinmeyenController.swift in Sources */,
+				5F250AD02621E3C200E56130 /* BurcCell.swift in Sources */,
+				5F2C024A2629CFA4009C1A33 /* EtiketlerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F250AAA2621D58100E56130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F250AAB2621D58100E56130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F250AAF2621D58100E56130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F250AB02621D58100E56130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F250AB32621D58100E56130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F250AB42621D58100E56130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F250AB62621D58100E56130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ76Y6C4AM;
+				INFOPLIST_FILE = BurcYorumlari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edorfs.BurcYorumlari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F250AB72621D58100E56130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ76Y6C4AM;
+				INFOPLIST_FILE = BurcYorumlari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edorfs.BurcYorumlari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F250A9C2621D58100E56130 /* Build configuration list for PBXProject "BurcYorumlari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F250AB32621D58100E56130 /* Debug */,
+				5F250AB42621D58100E56130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F250AB52621D58100E56130 /* Build configuration list for PBXNativeTarget "BurcYorumlari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F250AB62621D58100E56130 /* Debug */,
+				5F250AB72621D58100E56130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F250A992621D58100E56130 /* Project object */;
+}
