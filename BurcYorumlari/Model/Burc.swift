@@ -16,6 +16,7 @@ struct Burc {
     var haftalikYorum: String
     var aylikYorum: String
     var yillikYorum: String
+    var etiketYorum: String
     
     
     init(dictionary: [String: Any]) {
@@ -27,6 +28,20 @@ struct Burc {
         self.haftalikYorum = dictionary["Yorum"] as? String ?? ""
         self.aylikYorum = dictionary["Yorum"] as? String ?? ""
         self.yillikYorum = dictionary["Yorum"] as? String ?? ""
+        self.etiketYorum = dictionary["Yorum"] as? String ?? ""
+    }
+    
+}
+
+struct Etiket {
+    let etiket: String
+    let baslık: String
+    
+    
+    init(dictionary: [String: Any]) {
+        self.etiket = dictionary["Yorum"] as? String ?? ""
+        self.baslık = dictionary["Baslik"] as? String ?? ""
+        
     }
     
 }
@@ -40,9 +55,19 @@ struct CreateBurc{
 }
 
 struct EtiketData {
-    var etiketName: String
-    var etiketUrl: String
+    let etiketName: String
+    let etiketUrl: String
+    let etiketImage: String
+    
 }
+
+struct BurcPicker {
+    let burcNameName: String
+    let burcUrl: String
+    
+}
+
+
 
 
 

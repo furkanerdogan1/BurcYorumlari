@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,18 +15,20 @@
 		5F250AC12621D77600E56130 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC02621D77600E56130 /* Extensions.swift */; };
 		5F250AC42621D7FE00E56130 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC32621D7FE00E56130 /* MainTabBarController.swift */; };
 		5F250AC72621D81A00E56130 /* BurclarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC62621D81A00E56130 /* BurclarController.swift */; };
-		5F250ACA2621D9F000E56130 /* EtiketlerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250AC92621D9F000E56130 /* EtiketlerController.swift */; };
 		5F250ACD2621DB6400E56130 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250ACC2621DB6400E56130 /* Utilities.swift */; };
 		5F250AD02621E3C200E56130 /* BurcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F250ACF2621E3C200E56130 /* BurcCell.swift */; };
-		5F2C024A2629CFA4009C1A33 /* EtiketlerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */; };
-		5F2C024F262A1457009C1A33 /* BilinmeyenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */; };
+		5F2C024F262A1457009C1A33 /* BurcEtiketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C024E262A1457009C1A33 /* BurcEtiketController.swift */; };
 		5F33A6102622EA9C0022AE6F /* Burc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33A60F2622EA9C0022AE6F /* Burc.swift */; };
+		5F41840B262C72EB001E2C78 /* EtiketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F41840A262C72EB001E2C78 /* EtiketCell.swift */; };
+		5F41840E262C9F22001E2C78 /* EtiketDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F41840D262C9F22001E2C78 /* EtiketDetailController.swift */; };
 		5F8BAE602625E98600C5A3DC /* BurcDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */; };
 		5FD346C826273C18005BD222 /* beyond_the_mountains.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD346C726273C18005BD222 /* beyond_the_mountains.otf */; };
 		5FD346CB26273FF4005BD222 /* PureHeart-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD346CA26273FF4005BD222 /* PureHeart-Regular.ttf */; };
+		DCC8317EA6A08128A72D2B71 /* Pods_BurcYorumlari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E98B10941180B7C4A1077CD /* Pods_BurcYorumlari.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E98B10941180B7C4A1077CD /* Pods_BurcYorumlari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurcYorumlari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F250AA12621D58100E56130 /* BurcYorumlari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurcYorumlari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F250AA42621D58100E56130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F250AA62621D58100E56130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,15 +39,17 @@
 		5F250AC02621D77600E56130 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5F250AC32621D7FE00E56130 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		5F250AC62621D81A00E56130 /* BurclarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurclarController.swift; sourceTree = "<group>"; };
-		5F250AC92621D9F000E56130 /* EtiketlerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketlerController.swift; sourceTree = "<group>"; };
 		5F250ACC2621DB6400E56130 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		5F250ACF2621E3C200E56130 /* BurcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcCell.swift; sourceTree = "<group>"; };
-		5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketlerCell.swift; sourceTree = "<group>"; };
-		5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilinmeyenController.swift; sourceTree = "<group>"; };
+		5F2C024E262A1457009C1A33 /* BurcEtiketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcEtiketController.swift; sourceTree = "<group>"; };
 		5F33A60F2622EA9C0022AE6F /* Burc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burc.swift; sourceTree = "<group>"; };
+		5F41840A262C72EB001E2C78 /* EtiketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketCell.swift; sourceTree = "<group>"; };
+		5F41840D262C9F22001E2C78 /* EtiketDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketDetailController.swift; sourceTree = "<group>"; };
 		5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcDetailController.swift; sourceTree = "<group>"; };
 		5FD346C726273C18005BD222 /* beyond_the_mountains.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beyond_the_mountains.otf; sourceTree = "<group>"; };
 		5FD346CA26273FF4005BD222 /* PureHeart-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PureHeart-Regular.ttf"; sourceTree = "<group>"; };
+		E491460BF0EA11D96D9F59F7 /* Pods-BurcYorumlari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurcYorumlari.debug.xcconfig"; path = "Target Support Files/Pods-BurcYorumlari/Pods-BurcYorumlari.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DA46D56F2E5826658C9791 /* Pods-BurcYorumlari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurcYorumlari.release.xcconfig"; path = "Target Support Files/Pods-BurcYorumlari/Pods-BurcYorumlari.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC8317EA6A08128A72D2B71 /* Pods_BurcYorumlari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,8 @@
 			children = (
 				5F250AA32621D58100E56130 /* BurcYorumlari */,
 				5F250AA22621D58100E56130 /* Products */,
+				C7DC05AE76C5243A6434522D /* Pods */,
+				93685D9D58E3F65B9B3C8A3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,11 +121,9 @@
 		5F250ABC2621D71100E56130 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5F250AC32621D7FE00E56130 /* MainTabBarController.swift */,
 				5F250AC62621D81A00E56130 /* BurclarController.swift */,
-				5F250AC92621D9F000E56130 /* EtiketlerController.swift */,
-				5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */,
-				5F2C024E262A1457009C1A33 /* BilinmeyenController.swift */,
+				5F250AC32621D7FE00E56130 /* MainTabBarController.swift */,
+				5F2C024E262A1457009C1A33 /* BurcEtiketController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +131,8 @@
 		5F250ABD2621D71F00E56130 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */,
+				5F41840D262C9F22001E2C78 /* EtiketDetailController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -134,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				5F250ACF2621E3C200E56130 /* BurcCell.swift */,
-				5F2C02492629CFA4009C1A33 /* EtiketlerCell.swift */,
+				5F41840A262C72EB001E2C78 /* EtiketCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +163,23 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		93685D9D58E3F65B9B3C8A3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E98B10941180B7C4A1077CD /* Pods_BurcYorumlari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7DC05AE76C5243A6434522D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E491460BF0EA11D96D9F59F7 /* Pods-BurcYorumlari.debug.xcconfig */,
+				E6DA46D56F2E5826658C9791 /* Pods-BurcYorumlari.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F250AB52621D58100E56130 /* Build configuration list for PBXNativeTarget "BurcYorumlari" */;
 			buildPhases = (
+				51D5993D80DF286A9E45CB3B /* [CP] Check Pods Manifest.lock */,
 				5F250A9D2621D58100E56130 /* Sources */,
 				5F250A9E2621D58100E56130 /* Frameworks */,
 				5F250A9F2621D58100E56130 /* Resources */,
+				C4C49593884779B52A3BB7C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,11 +249,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51D5993D80DF286A9E45CB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BurcYorumlari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C49593884779B52A3BB7C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BurcYorumlari/Pods-BurcYorumlari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BurcYorumlari/Pods-BurcYorumlari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BurcYorumlari/Pods-BurcYorumlari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F250A9D2621D58100E56130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F41840E262C9F22001E2C78 /* EtiketDetailController.swift in Sources */,
 				5F250AA52621D58100E56130 /* AppDelegate.swift in Sources */,
 				5F250AC12621D77600E56130 /* Extensions.swift in Sources */,
 				5F250ACD2621DB6400E56130 /* Utilities.swift in Sources */,
@@ -235,11 +304,10 @@
 				5F250AC42621D7FE00E56130 /* MainTabBarController.swift in Sources */,
 				5F250AC72621D81A00E56130 /* BurclarController.swift in Sources */,
 				5F250AA72621D58100E56130 /* SceneDelegate.swift in Sources */,
-				5F250ACA2621D9F000E56130 /* EtiketlerController.swift in Sources */,
+				5F41840B262C72EB001E2C78 /* EtiketCell.swift in Sources */,
 				5F8BAE602625E98600C5A3DC /* BurcDetailController.swift in Sources */,
-				5F2C024F262A1457009C1A33 /* BilinmeyenController.swift in Sources */,
+				5F2C024F262A1457009C1A33 /* BurcEtiketController.swift in Sources */,
 				5F250AD02621E3C200E56130 /* BurcCell.swift in Sources */,
-				5F2C024A2629CFA4009C1A33 /* EtiketlerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +451,7 @@
 		};
 		5F250AB62621D58100E56130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E491460BF0EA11D96D9F59F7 /* Pods-BurcYorumlari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -402,6 +471,7 @@
 		};
 		5F250AB72621D58100E56130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DA46D56F2E5826658C9791 /* Pods-BurcYorumlari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -38,7 +38,8 @@ class MainTabBarController: UITabBarController {
         nav1.title = "Burçlar"
         
         
-        let explore = EtiketlerController()
+        let explore = BurcEtiketController(collectionViewLayout: UICollectionViewFlowLayout())
+        
         let nav2 = templateNavigationController(image: UIImage(systemName: "tag.fill")!, rootViewController: explore)
         nav2.title = "Etiketler"
         viewControllers = [nav1, nav2]

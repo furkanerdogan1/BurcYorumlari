@@ -1,0 +1,6 @@
+framework module Pods_BurcYorumlari {
+  umbrella header "Pods-BurcYorumlari-umbrella.h"
+
+  export *
+  module * { export * }
+}

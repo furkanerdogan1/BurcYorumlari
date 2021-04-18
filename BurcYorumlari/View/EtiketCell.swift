@@ -1,22 +1,22 @@
 //
-//  BurcCell.swift
+//  EtiketCell.swift
 //  BurcYorumlari
 //
-//  Created by Furkan Erdoğan on 10.04.2021.
+//  Created by Furkan Erdoğan on 18.04.2021.
 //
 
 import UIKit
 
-class BurcCell: UICollectionViewCell {
+class EtiketCell: UICollectionViewCell {
     //MARK: - Properties
     
     
-    var burc: CreateBurc? {
+    var etiket: EtiketData? {
         didSet{
-            guard let burcName = burc?.burcName else {return}
-            guard let burcImage = burc?.burcImage else {return}
+            guard let etiketName = etiket?.etiketName else {return}
+            guard let burcImage = etiket?.etiketImage else {return}
             
-            burcLabel.text = burcName
+            burcLabel.text = etiketName
             burcImageView.image = UIImage(named: burcImage)
             
         }
@@ -63,12 +63,12 @@ class BurcCell: UICollectionViewCell {
         backgroundColor = UIColor.clear
         
         addSubview(burcImageView)
-        burcImageView.anchor(top: topAnchor, left: leftAnchor, right: rightAnchor, paddingTop: 10, paddingBottom: 10)
+        burcImageView.anchor(top: topAnchor, left: leftAnchor, right: rightAnchor, paddingTop: 10)
         
         
         
         addSubview(burcLabel)
-        burcLabel.anchor(top: burcImageView.bottomAnchor, left: burcImageView.leftAnchor, right: burcImageView.rightAnchor, paddingTop: 10)
+        burcLabel.anchor(top: burcImageView.bottomAnchor, left: burcImageView.leftAnchor, right: burcImageView.rightAnchor, paddingTop: 15)
         
         let underLineView = UIView()
         underLineView.backgroundColor = .systemGroupedBackground

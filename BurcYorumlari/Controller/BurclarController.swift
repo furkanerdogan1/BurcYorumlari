@@ -15,15 +15,15 @@ class BurclarController: UICollectionViewController {
     //MARK: - Properties
     
     var burclar = [CreateBurc(burcName: "Koç", burcImage: "koc", burcGezegeni: "Mars", burcElementi: "Ateş", burcIcon: "kocIcon"),
-                   CreateBurc(burcName: "Boğa", burcImage: "boga", burcGezegeni: "Venüs",burcElementi: "Toprak", burcIcon: "bogaIcon"),
-                   CreateBurc(burcName: "İkizler", burcImage: "ikizler", burcGezegeni: "Merkür", burcElementi: "Hava", burcIcon: "ikizlerIcon"),
+                   CreateBurc(burcName: "Boğa\n", burcImage: "boga", burcGezegeni: "Venüs",burcElementi: "Toprak", burcIcon: "bogaIcon"),
+                   CreateBurc(burcName: "İkizler\n", burcImage: "ikizler", burcGezegeni: "Merkür", burcElementi: "Hava", burcIcon: "ikizlerIcon"),
                    CreateBurc(burcName: "Yengeç", burcImage: "yengec", burcGezegeni: "Ay", burcElementi: "Su", burcIcon: "yengecIcon"),
                    CreateBurc(burcName: "Aslan", burcImage: "aslan", burcGezegeni: "Güneş", burcElementi: "Ateş", burcIcon: "aslanIcon"),
                    CreateBurc(burcName: "Başak", burcImage: "basak", burcGezegeni: "Merkür", burcElementi: "Toprak", burcIcon: "basakIcon"),
-                   CreateBurc(burcName: "Terazi", burcImage: "terazi", burcGezegeni: "Venüs", burcElementi: "Hava", burcIcon: "teraziIcon"),
+                   CreateBurc(burcName: "Terazi\n", burcImage: "terazi", burcGezegeni: "Venüs", burcElementi: "Hava", burcIcon: "teraziIcon"),
                    CreateBurc(burcName: "Akrep", burcImage: "akrep", burcGezegeni: "Mars/Plüton", burcElementi: "Su", burcIcon: "akrepIcon"),
-                   CreateBurc(burcName: "Yay", burcImage: "yay", burcGezegeni: "Jüpiter", burcElementi: "Ateş", burcIcon: "yayIcon"),
-                   CreateBurc(burcName: "Oğlak", burcImage: "oglak", burcGezegeni: "Satürn", burcElementi: "Toprak", burcIcon: "oglakIcon"),
+                   CreateBurc(burcName: "Yay\n", burcImage: "yay", burcGezegeni: "Jüpiter", burcElementi: "Ateş", burcIcon: "yayIcon"),
+                   CreateBurc(burcName: "Oğlak\n", burcImage: "oglak", burcGezegeni: "Satürn", burcElementi: "Toprak", burcIcon: "oglakIcon"),
                    CreateBurc(burcName: "Kova", burcImage: "kova", burcGezegeni: "Uranüs", burcElementi: "Hava", burcIcon: "kovaIcon"),
                    CreateBurc(burcName: "Balık", burcImage: "balik", burcGezegeni: "Neptün\nJüpiter", burcElementi: "Su", burcIcon: "balikIcon")]
     
@@ -76,11 +76,13 @@ class BurclarController: UICollectionViewController {
       // Start and end for left to right gradient
       gradientLayer.startPoint = CGPoint(x: 0.5, y: 1.0)
         gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.0)
-      gradientLayer.colors = [UIColor.blue.cgColor,
-                              UIColor.twitterBlue.cgColor]
+      gradientLayer.colors = [UIColor.twitterBlue.cgColor,
+                              UIColor.blue.cgColor]
       collectionView.backgroundView = collectionViewBackgroundView
       collectionView.backgroundView?.layer.addSublayer(gradientLayer)
+    
     }
+
 }
 
 // MARK: - UICollectionViewDelegate/Datasource
@@ -121,12 +123,14 @@ extension BurclarController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: 123, height: 160)
+        return CGSize(width: view.frame.size.width / 4, height: 170)
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        CGFloat(10)
-    }
+    
+    
+    
+    
+    
 }
 
 
