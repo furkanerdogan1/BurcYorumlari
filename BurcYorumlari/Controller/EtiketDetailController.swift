@@ -15,6 +15,10 @@ class EtiketDetailController: UIViewController {
     var selectedEtiketUrl: String!
     var selectedBurcUrl: String!
     
+    var selectedEtiketName: String!
+    
+    var selectedBurcName: String!
+    
     var etiket: EtiketData? {
         didSet{
             guard let etiketUrl = etiket?.etiketUrl else {return}
@@ -93,7 +97,8 @@ class EtiketDetailController: UIViewController {
     private lazy var baslikLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = UIFont(name: "HelveticaNeue-Medium", size: 18)
+        label.text = "\(selectedBurcName ?? "")" + " burcunun " + "\(selectedEtiketName ?? "")" + " hakkındaki yorumu"
+        label.font = UIFont(name: "HelveticaNeue-Medium", size: 24)
         label.textAlignment = .center
         label.numberOfLines = 10
         return label
@@ -119,7 +124,7 @@ class EtiketDetailController: UIViewController {
         configureUI()
         fetchApi()
         
-        print("DEBUG: SELECTED BURC \(selectedBurcUrl ?? "olmadı")")
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .done, target: self, action: #selector(shareButtonPressed))
         
     }
     
@@ -150,7 +155,6 @@ class EtiketDetailController: UIViewController {
                                 self.etiketBilgileri.append(Etiket(dictionary: dic))
                                 let burcAd = Etiket(dictionary: dic)
                                 self.etiketYorumTextView.text = burcAd.etiket
-                                self.baslikLabel.text = burcAd.baslık
                                 
                             }
                         }
@@ -179,17 +183,32 @@ class EtiketDetailController: UIViewController {
         beyazView.addSubview(burcImageView)
         burcImageView.centerX(inView: beyazView, topAnchor: beyazView.topAnchor, paddingTop: -35)
         
-        beyazView.addSubview(baslikAdiLabel)
-        baslikAdiLabel.anchor(top: burcImageViewBos.bottomAnchor, left: beyazView.leftAnchor, right: beyazView.rightAnchor, paddingTop: 5)
         
         beyazView.addSubview(baslikLabel)
-        baslikLabel.anchor(top: baslikAdiLabel.bottomAnchor, left: beyazView.leftAnchor, right: beyazView.rightAnchor, paddingTop: 5, paddingLeft: 10, paddingRight: 10)
+        baslikLabel.anchor(top: burcImageViewBos.bottomAnchor, left: beyazView.leftAnchor, right: beyazView.rightAnchor, paddingTop: 10, paddingLeft: 10, paddingRight: 10)
         
-        beyazView.addSubview(yorumAdiLabel)
-        yorumAdiLabel.anchor(top: baslikLabel.bottomAnchor, left: beyazView.leftAnchor, right: beyazView.rightAnchor, paddingTop: 5)
+       
         
         beyazView.addSubview(etiketYorumTextView)
-        etiketYorumTextView.anchor(top: yorumAdiLabel.bottomAnchor, left: beyazView.leftAnchor, bottom: beyazView.bottomAnchor, right: beyazView.rightAnchor, paddingTop: 5, paddingLeft: 10, paddingBottom: 5, paddingRight: 10)
+        etiketYorumTextView.anchor(top: baslikLabel.bottomAnchor, left: beyazView.leftAnchor, bottom: beyazView.bottomAnchor, right: beyazView.rightAnchor, paddingTop: 10, paddingLeft: 10, paddingBottom: 5, paddingRight: 10)
+        
+    }
+    
+    @objc func shareButtonPressed(){
+        
+        let text = "\(selectedBurcName ?? "")" + " burcunun " + "\(selectedEtiketName ?? "")" + " hakkındaki yorumuna bir göz at.\n\n" + "\(etiketYorumTextView.text ?? "")"
+        
+
+                // set up activity view controller
+        let textToShare = [ text ]
+        let activityViewController = UIActivityViewController(activityItems: textToShare as [Any], applicationActivities: nil)
+                activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
+
+                // exclude some activity types from the list (optional)
+        activityViewController.excludedActivityTypes = [ .airDrop, .postToTwitter,  UIActivity.ActivityType.postToFacebook ]
+
+                // present the view controller
+                self.present(activityViewController, animated: true, completion: nil)
         
     }
     

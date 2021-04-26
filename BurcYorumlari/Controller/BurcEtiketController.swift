@@ -17,7 +17,8 @@ class BurcEtiketController: UICollectionViewController {
     
     //MARK: - Properties
     
-    var selectedOffice: String?
+    var selectedBurcUrl: String?
+    var selectedBurName: String?
     
     var burcEtiketler = [EtiketData(etiketName: "Aşk", etiketUrl: "ask", etiketImage: "ask"),
                         EtiketData(etiketName: "Kariyer\n", etiketUrl: "kariyer", etiketImage: "kariyer"),
@@ -178,7 +179,9 @@ extension BurcEtiketController {
             vc.navigationItem.title = burcEtiketler[indexPath.row].etiketName
             vc.burcImageView.image = UIImage(named: burcEtiketler[indexPath.row].etiketImage)
             vc.selectedEtiketUrl = burcEtiketler[indexPath.row].etiketUrl
-            vc.selectedBurcUrl = selectedOffice
+            vc.selectedEtiketName = burcEtiketler[indexPath.row].etiketName
+            vc.selectedBurcUrl = selectedBurcUrl
+            vc.selectedBurcName = selectedBurName
         }else {
             let alert = UIAlertController(title: "Burç seçmelisin!", message: "Yorumları görmek için önce bir burç seç.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Tamam", style: .cancel, handler: nil))
@@ -221,7 +224,8 @@ extension BurcEtiketController: UIPickerViewDataSource, UIPickerViewDelegate {
         pickerTextField.text = burclar[row].burcNameName
         pickerTextField.resignFirstResponder()
         
-        selectedOffice = burclar[row].burcUrl
+        selectedBurcUrl = burclar[row].burcUrl
+        selectedBurName = burclar[row].burcNameName
         
     }
     

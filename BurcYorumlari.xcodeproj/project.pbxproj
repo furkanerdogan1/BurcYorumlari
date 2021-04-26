@@ -121,6 +121,8 @@
 		5F250ABC2621D71100E56130 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */,
+				5F41840D262C9F22001E2C78 /* EtiketDetailController.swift */,
 				5F250AC62621D81A00E56130 /* BurclarController.swift */,
 				5F250AC32621D7FE00E56130 /* MainTabBarController.swift */,
 				5F2C024E262A1457009C1A33 /* BurcEtiketController.swift */,
@@ -131,8 +133,6 @@
 		5F250ABD2621D71F00E56130 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5F8BAE5F2625E98600C5A3DC /* BurcDetailController.swift */,
-				5F41840D262C9F22001E2C78 /* EtiketDetailController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";

@@ -242,6 +242,8 @@ class BurcDetailController: UIViewController {
         navigationController?.navigationBar.barTintColor = .white
         tabBarController?.tabBar.barTintColor = .white
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .done, target: self, action: #selector(shareButtonPressed))
+        
         yorumlarGunlukTextView.isHidden = false
         yorumlarHaftalikTextView.isHidden = true
         yorumlarAylikTextView.isHidden = true
@@ -417,6 +419,24 @@ class BurcDetailController: UIViewController {
     
     
     //MARK: -  Helper
+    
+    @objc func shareButtonPressed(){
+        
+        let text = "\(selectedBurcName ?? "")" + " burcunun " + "\(selectedBurcGezegen ?? "")" + " hakkındaki yorumuna bir göz at.\n\n" + "\(yorumlarGunlukTextView.text ?? "")"
+        
+
+                // set up activity view controller
+        let textToShare = [ text ]
+        let activityViewController = UIActivityViewController(activityItems: textToShare as [Any], applicationActivities: nil)
+                activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
+
+                // exclude some activity types from the list (optional)
+        activityViewController.excludedActivityTypes = [ .airDrop, .postToTwitter,  UIActivity.ActivityType.postToFacebook ]
+
+                // present the view controller
+                self.present(activityViewController, animated: true, completion: nil)
+        
+    }
     
     @objc func segmetChanged(_ sender: UISegmentedControl){
         
