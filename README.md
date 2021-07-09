@@ -2,9 +2,8 @@
 <h1 align="center">Merhaba 👋, Ben Furkan</h1>
 <h3 align="center">Günlük burç yorumlarınızı takip edebileceğiniz bir uygulama yaptım. Uygulama dosyasını indirip terminalde pod install yaptıktan sonra uygulamayı çalıştırabilirsiniz.</h3>
 
-- 🔭 I’m currently working on [Burç Yorumalrı](https://github.com/furkanerdogan1/BurcYorumlari)
 
-- 📫 How to reach me **furkanerdogan.pc@gmail.com**
+- 📫 Bana burdan ulaşabilirsiniz **furkanerdogan.pc@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
